@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+
+
+<div class="float" style="background-color: #0a58ca;margin-right: 280px;margin-left: 280px;padding: 50px">
+    {% block body %}
+
+    {% endblock %}
+
+</div>
+
+</body>
+</html>
